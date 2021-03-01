@@ -9,6 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let hornSound = document.getElementById('horn-sound');
   let soundImage = document.getElementById('sound-image');
   let honkBtn = document.getElementById('honk-btn');
+
   slider.addEventListener('input', () => {
     numInput.value = slider.value;
     hornSound.volume = slider.value / 100;
